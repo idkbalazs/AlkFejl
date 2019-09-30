@@ -16,4 +16,4 @@ Szerepkörök: -Hajvágás
              -Hajfestés 
              -Szakállfestés
 
-Folyamatok: Bejelentkezés -> Fodrászat kiválasztás -> Időpont választása -> Fodrász kiválasztás -> Foglalás.
+Folyamatok: Bejelentkezés -> Fodrászat kiválasztás -> Időpont választása -> Fodrász kiválasztás -> Foglalás
