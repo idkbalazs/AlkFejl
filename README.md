@@ -19,4 +19,4 @@ Szabó Antal Balázs F4VM6F - Harangozó Martin LYRO1P
 * Szakállfestés
 
 ## Folyamatok: 
-Bejelentkezés -> Fodrászat kiválasztás -> Időpont választása -> Fodrász kiválasztás -> Foglalás
+* Bejelentkezés -> Fodrászat kiválasztás -> Időpont választása -> Fodrász kiválasztás -> Foglalás
