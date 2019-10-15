@@ -13,10 +13,8 @@ Szabó Antal Balázs F4VM6F - Harangozó Martin LYRO1P
 * Minden 10. hajvágás ingyenes
 
 ## Szerepkörök: 
-* Hajvágás 
-* Szakállvágás 
-* Hajfestés 
-* Szakállfestés
+* Admin
+* Felhasználó : vásárlók
 
 ## Folyamatok: 
 * Bejelentkezés -> Fodrászat kiválasztás -> Időpont választása -> Fodrász kiválasztás -> Foglalás
