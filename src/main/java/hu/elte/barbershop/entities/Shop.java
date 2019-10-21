@@ -1,4 +1,4 @@
-package hu.barbershop.entities;
+package hu.elte.barbershop.entities;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

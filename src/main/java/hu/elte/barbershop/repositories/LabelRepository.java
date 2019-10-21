@@ -1,6 +1,6 @@
-package hu.barbershop.repositories;
+package hu.elte.barbershop.repositories;
 
-import hu.barbershop.entities.Label;
+import hu.elte.barbershop.entities.Label;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

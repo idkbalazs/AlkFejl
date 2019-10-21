@@ -1,4 +1,4 @@
-package hu.barbershop;
+package hu.elte.barbershop;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

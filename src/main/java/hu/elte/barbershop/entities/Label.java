@@ -1,5 +1,6 @@
-package hu.barbershop.entities;
+package hu.elte.barbershop.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.time.LocalDateTime;
 import java.util.List;
 import javax.persistence.Column;
@@ -7,22 +8,21 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
 import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class Barber {
+public class Label {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,20 +30,18 @@ public class Barber {
 
     @Column
     @NotNull
-    private String name;
-
-    @Column
-    @NotNull
-    private String shop;
+    private String opinion;
 
     @Column(updatable = false)
     @CreationTimestamp
-    private LocalDateTime start_time;
-    
-    @OneToMany(mappedBy = "barber")
-    private List<Reservation> reservations;
+    private LocalDateTime created_at;
 
-    @ManyToMany
-    @JoinTable
-    private List<Label> labels;
+    @Column
+    @UpdateTimestamp
+    private LocalDateTime updated_at;
+    
+
+    @ManyToMany(mappedBy = "labels")
+    @JsonIgnore
+    private List<Barber> barbers;
 }

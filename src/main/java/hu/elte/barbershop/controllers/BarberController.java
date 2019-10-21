@@ -1,15 +1,16 @@
-package hu.barbershop.controllers;
+package hu.elte.barbershop.controllers;
 
-import hu.barbershop.entities.Barber;
-import hu.barbershop.entities.Label;
-import hu.barbershop.entities.Reservation;
-import hu.barbershop.repositories.BarberRepository;
-import hu.barbershop.repositories.LabelRepository;
-import hu.barbershop.repositories.ReservationRepository;
-import hu.barbershop.security.AuthenticatedUser;
+import hu.elte.barbershop.entities.Barber;
+import hu.elte.barbershop.entities.Label;
+import hu.elte.barbershop.entities.Reservation;
+import hu.elte.barbershop.repositories.BarberRepository;
+import hu.elte.barbershop.repositories.LabelRepository;
+import hu.elte.barbershop.repositories.ReservationRepository;
+import hu.elte.barbershop.security.AuthenticatedUser;
 
 import java.util.List;
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

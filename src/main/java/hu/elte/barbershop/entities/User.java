@@ -1,4 +1,4 @@
-package hu.barbershop.entities;
+package hu.elte.barbershop.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

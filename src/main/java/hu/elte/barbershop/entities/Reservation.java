@@ -1,4 +1,4 @@
-package hu.barbershop.entities;
+package hu.elte.barbershop.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.time.LocalDateTime;

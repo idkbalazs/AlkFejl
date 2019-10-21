@@ -1,4 +1,4 @@
-package hu.barbershop.security;
+package hu.elte.barbershop.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,9 +1,10 @@
-package hu.barbershop.controllers;
+package hu.elte.barbershop.controllers;
 
-import hu.barbershop.entities.Shop;
-import hu.barbershop.repositories.ShopRepository;
+import hu.elte.barbershop.entities.Shop;
+import hu.elte.barbershop.repositories.ShopRepository;
 
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

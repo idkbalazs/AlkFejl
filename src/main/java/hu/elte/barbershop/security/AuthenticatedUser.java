@@ -1,6 +1,6 @@
-package hu.barbershop.security;
+package hu.elte.barbershop.security;
 
-import hu.barbershop.entities.User;
+import hu.elte.barbershop.entities.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package hu.barbershop.security;
+package hu.elte.barbershop.security;
 
 import java.io.IOException;
 import java.io.PrintWriter;

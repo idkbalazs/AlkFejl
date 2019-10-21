@@ -1,8 +1,9 @@
-package hu.barbershop.repositories;
+package hu.elte.barbershop.repositories;
 
-import hu.barbershop.entities.User;
+import hu.elte.barbershop.entities.User;
 
 import java.util.Optional;
+
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {
