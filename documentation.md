@@ -7,7 +7,7 @@
 
 ## Adatbázis terv:
 
-![Database UML diagramm](uml.PNG)
+![Database UML diagramm](uml.png)
 
 
 ## Könyvtárstruktúra:
