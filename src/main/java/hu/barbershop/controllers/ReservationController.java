@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/reservations")
-public class ReservationsController {
+public class ReservationController {
 
     @Autowired
     private ReservationRepository reservationRepository;
