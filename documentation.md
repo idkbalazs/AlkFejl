@@ -79,3 +79,4 @@
 
 ## Egy végpont bemutatása:
 
+![Sequence diagramm](seq.png)
