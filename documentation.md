@@ -113,7 +113,7 @@ Ebben az alkalmazásban barátikörök vihetnek fel különböző összejövetel
 
 ## 3.1 Használati eset diagram: Melyik szerepkör mely felületekhez fér hozzá
 
-<img src="images/usecasediagram.jpeg">
+![UseCaseDiagram](usecasediagram.jpeg)
 
 ## 3.2 Fejlesztői környezet bemutatása, Beállítása, Használt technológiák
 
@@ -175,7 +175,7 @@ Foglalás után a felhasználó törölheti a foglalást.
 
 ## 4.3	Egy funkció folyamatának leírása, azaz mi történik kattintástól a visszajelzésig
 
-<img src="images/Statediagram.jpeg">
+![StateChart](Statediagram.jpeg)
 
 ## 4.4 Felhasználói dokumentáció
 
