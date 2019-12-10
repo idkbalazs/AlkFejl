@@ -1,7 +1,6 @@
 # 1. Projektötlet
 
-Ebben az alkalmazásban barátikörök vihetnek fel különböző összejöveteleikről számlákat. Az egyes emberek megadhatják, hogy ki mennyivel tartozik egy adott számlába. A felvitt számlához kötelezően csatolni kell egy képet a blokkról, ezután pedig az adminisztrátornak jóvá kell hagynia. Ezen kívül minden tag le tudja kérdezni a számlánkénti és az összes tartozását. A tartozások kiegyenlítéséhez is adminisztrátori jóváhagyás szükséges.
-
+Egy olyan alkalmazás ami segítségével megkönnyíthetjük a férfiaknak a fodrászhoz való időpontfoglalását. Az alkalmazás segítségével a felhasználó foglalhat időpontot az általa választott barberhez. 
 
 ## 1.1 Funkcionális követelmények:
 
