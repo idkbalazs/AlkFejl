@@ -12,7 +12,6 @@ Egy olyan alkalmazás ami segítségével megkönnyíthetjük a férfiaknak a fo
 
 	* Az időpontok ütközésének a megoldása 
 	* Üzlet választás után ne tudjon olyan fodrászt választani aki nem abban az üzletben dolgozik 
-	* Minden 10. hajvágás ingyenes
 
 ## 1.4 Szerepkörök:
 
