@@ -1,0 +1,29 @@
+<mat-toolbar color="primary">
+  <button mat-button href="/">
+    <mat-icon>home</mat-icon>
+    Reservation tracker
+  </button>
+
+  <span class="fill-remaining-space" fxHide="false" fxHide.gt-sm></span>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+    <button mat-button href="/reservations">My reservations</button>
+    <button mat-button href="/reservation/add">New reservations</button>
+  </div>
+  <button mat-icon-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-menu xPosition="before" #menu="matMenu">
+  <button mat-menu-item href="/reservations">My reservations</button>
+  <button mat-menu-item href="/reservations/add">New reservations</button>
+</mat-menu>
+<div *ngIf="authService.isLoggedIn">
+  <span>Hello, {{authService.user.username}}!</span>
+  <button mat-button (click)="logout()">Logout</button>
+</div>
+<div *ngIf="!authService.isLoggedIn">
+  <button mat-button routerLink="/login">Login</button>
+</div>
+
+
+<router-outlet></router-outlet>

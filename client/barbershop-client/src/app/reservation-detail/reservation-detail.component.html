@@ -1,0 +1,15 @@
+<h1 class="display-2">Reservation #{{ reservation.id }}</h1>
+<dl class="row">
+  <dt class="col-sm-3">Type</dt>
+  <dd class="col-sm-9">{{ reservation.type }}</dd>
+  
+  <dt class="col-sm-3">Name</dt>
+  <dd class="col-sm-9">{{ reservation.name }}</dd>
+
+  <dt class="col-sm-3">Barber</dt>
+  <dd class="col-sm-9">{{ reservation.barber }}</dd>
+  
+  <dt class="col-sm-3">Status</dt>
+  <dd class="col-sm-9">{{ reservation.status }}</dd>
+</dl>
+<button mat-raised-button routerLink="/reservations">Back</button>

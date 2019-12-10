@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col">
+      <h1 class="display-2">My reservations</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Barber</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let reservation of filteredReservations" (click)="onSelectReservation(reservation)" [class.table-info]="reservation === selectedReservation" >
+            <th scope="row">{{ reservation.id }}</th>
+            <td>
+                <a [routerLink]="['/reservations', reservation.id]">
+                  {{ reservation.name }}
+                </a>
+              </td>
+            <td>{{ reservation.type }}</td>
+            <td>{{ reservation.name }}</td>
+            <td>{{ reservation.barber }}</td>
+            <td>{{ reservation.status }}</td>
+            <td>
+              <button mat-raised-button color="primary" (click)="onDeleteClick(reservation.id)">Delete</button>
+            </td>
+            <td>
+              <button mat-raised-button color="primary" (click)="onUpdateClick(reservation)">Update</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <status-filter [status]="selectedStatus" (onChange)="onFilterChange($event)"></status-filter>
+
+  <button mat-raised-button color="primary" (click)="onNewClick()">New Reservation</button>
+  <div class="col" *ngIf="selectedReservation">
+    <reservation-form [reservation]="selectedReservation" (onSubmit)="onFormSubmit($event)"></reservation-form>
+  </div>
+    
+    
